@@ -31,7 +31,7 @@ weight INT NULL COMMENT '体重');
 ### 5.作成したテーブルにレコードの登録・更新・削除をおこなってみましょう
 ```
 /* 5.レコードの登録・更新・削除 */
-INSERT INTO user(user_name, age, heigth, weight)
+INSERT INTO user(user_name, age, height, weight)
 VALUES ('山田 太郎', 20, 170, 70),
 ('佐藤 太郎', 20, 170, 70),
 ('中原 太郎', 20, 170, 80),
