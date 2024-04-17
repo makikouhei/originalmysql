@@ -23,6 +23,7 @@ CREATE DATABASE test_id;
 CREATE TABLE test_id.user (
 user_id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
 user_name VARCHAR(45) NOT NULL COMMENT '名前',
+age INT NULL COMMENT '年齢'
 height INT NULL COMMENT '身長',
 weight INT NULL COMMENT '体重');
 ```
@@ -34,6 +35,6 @@ INSERT INTO user(user_name, age, heigth, weight)
 VALUES ('山田 太郎', 20, 170, 70),
 ('佐藤 太郎', 20, 170, 70),
 ('中原 太郎', 20, 170, 80),
-('田中 太郎', 20, 170, 80),
+('田中 太郎', 20, 170, 80);
 
 ```
