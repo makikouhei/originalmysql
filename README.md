@@ -49,4 +49,4 @@ UPDATE user SET weight = 90 WHERE user_id = 3;
 ### 7.MySQL Workbenchで、作成したデータベースに接続しましょう
 
 ### 8.MySQL Workbenchで、ER図を作成してみましょう
-<img src="docs/Untitled.png" width="75%">
+<img src="docs/Untitled.png" width="35%">
